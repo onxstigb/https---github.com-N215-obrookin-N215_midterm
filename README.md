@@ -5,3 +5,5 @@
 9:55am - Completed nav
 
 10:16am - Completed home page
+
+10:35am - Completed about page

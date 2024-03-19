@@ -1,0 +1,38 @@
+.gray-2 {
+  height: 30px;
+  width: 50%;
+  background-color: $site-gray;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .box-1 {
+    height: 1080px;
+    width: 50%;
+    // background-color: bisque;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .box-2 {
+    height: 1080px;
+    width: 50%;
+    padding-left: 73px;
+    padding-right: 73px;
+
+    h1 {
+      margin-bottom: 41px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
