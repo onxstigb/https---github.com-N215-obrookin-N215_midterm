@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 60px;
+  background-color: #471f00;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  display: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 32px;
+}
+.logo p {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.hero {
+  height: 500px;
+  background-color: bisque;
+}
+
+/*# sourceMappingURL=styles.css.map */
