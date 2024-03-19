@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "live-serve",
-    "compile": "sass sass/main.scss css/style.css -w"
+    "compile": "sass sass/styles.scss css/styles.css -w"
   },
   "keywords": [],
   "author": "",
