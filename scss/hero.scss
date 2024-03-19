@@ -1,4 +1,48 @@
 .hero {
-  height: 500px;
-  background-color: bisque;
+  height: 982px;
+  background-color: $site-gray;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/sidekix-media-WgkA3CSFrjc-unsplash.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  h2 {
+    color: $site-white;
+    position: absolute;
+    top: 330px;
+    left: 141px;
+  }
+
+  .quote {
+    width: 373px;
+    color: $site-white;
+    position: absolute;
+    top: 392px;
+    left: 141px;
+  }
+
+  .box {
+    width: 177px;
+    height: 51px;
+    // background-color: white;
+    border: 2px solid $site-white;
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      margin-top: 17px;
+    }
+  }
+
+  .copyright {
+    color: $site-white;
+    font-size: 16px;
+    margin: 0 auto;
+    position: absolute;
+    top: 948px;
+    left: 655px;
+  }
 }
