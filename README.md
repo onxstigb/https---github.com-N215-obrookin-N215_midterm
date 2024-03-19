@@ -7,3 +7,5 @@
 10:16am - Completed home page
 
 10:35am - Completed about page
+
+11:00am - Completed blog page

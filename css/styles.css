@@ -132,4 +132,55 @@ nav {
   font-size: 16px;
 }
 
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .gray-half {
+  height: 1080px;
+  width: 50%;
+  background-color: #707070;
+  position: relative;
+}
+.blog .gray-half .pic-1 {
+  width: 536px;
+  height: 359px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/blog-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #471f00;
+  position: absolute;
+  top: 102px;
+  left: 100px;
+}
+.blog .gray-half .pic-2 {
+  width: 541px;
+  height: 361px;
+  background-image: url(../images/blog-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #471f00;
+  position: absolute;
+  top: 583px;
+  left: 100px;
+}
+.blog .white-half {
+  height: 1080px;
+  width: 50%;
+  padding-left: 54px;
+  padding-right: 71px;
+}
+.blog .white-half h2 {
+  margin-top: 41px;
+  margin-bottom: 41px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.blog .white-half p {
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=styles.css.map */
